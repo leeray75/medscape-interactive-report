@@ -1,5 +1,6 @@
 import d3 from 'app/charts/d3-commons'
 import ResponsiveChart from 'app/charts/responsive-chart'
+import './scss/horizontal.scss';
 window.d3 = d3;
 export default class HorizontalBar extends ResponsiveChart{
 	constructor(containerEl,data){
@@ -58,10 +59,16 @@ export default class HorizontalBar extends ResponsiveChart{
 		        .attr("class", "y axis")
 		        .call(d3.axisLeft(y));
 
+
 		    g.selectAll(".bar")
 		        .data(data)
 		      .enter().append("rect")
-		        .attr("class", "bar")
+		        .attr("class", (d)=>{
+		        	let names = d.name.split("-");
+		        	let name = names[0].trim().toLowerCase();
+		        	name = name.replace(/[^a-zA-Z ]/g, "").replace(/\s+/g, '-')
+		        	return `bar data-${name}`
+		        })
 		        .attr("x", 0)
 		        //.attr("height", y.bandwidth())
 		        .style('height',(d)=>{
@@ -74,7 +81,14 @@ export default class HorizontalBar extends ResponsiveChart{
 		        	return `${percentage}%`;
 		        })
 		        //.attr("width", function(d) { return x(d.value); })
-		        
+		        const ticks = g.selectAll('.y.axis .tick');
+		        ticks.attr("class",(d,i)=>{
+		        	const data = this.data[i];
+		        	let names = data.name.split("-");
+		        	let name = names[0].trim().toLowerCase();
+		        	name = name.replace(/[^a-zA-Z ]/g, "").replace(/\s+/g, '-')
+		        	return `tick data-${name}`
+		        })
 	}
 
 	render(){

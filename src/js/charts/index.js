@@ -1,3 +1,3 @@
-import HorizontalBar from './horizontal-bar';
+import * as bar from './bar';
 
-export { HorizontalBar };
+export { bar };

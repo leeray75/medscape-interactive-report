@@ -41,9 +41,19 @@ module.exports = {
             presets: ['es2015']
           }
         },
+
         {
           test: /\.(scss|css)$/,
-          loaders: ['style-loader', 'css-loader', 'postcss-loader', 'sass-loader']
+          loaders: ['style-loader', 'css-loader', 
+          {
+            loader: 'postcss-loader',
+            options: {
+              config: {
+                path: path.resolve(__dirname, 'postcss.config.js')
+              }
+            }
+          }
+          , 'sass-loader']
         },
         {
           test: /\.(svg|png|jpg|gif|woff|woff2|eot|ttf)$/,
