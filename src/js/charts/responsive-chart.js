@@ -1,39 +1,35 @@
+import Plotly from 'npm/plotly.js/lib/core';
+const d3 = Plotly.d3;
 export default class ResponsiveChart{
 	constructor(containerEl){
-		this.state = {
-			width: containerEl.offsetWidth,
-			height: containerEl.offsetWidth*.5
-		}
-		this._state = Object.assign({},this.state);
+
 		this.containerEl = containerEl;
-		this.el = document.createElementNS("http://www.w3.org/2000/svg", "svg");
-		this.el.setAttribute('width',this.state.width);
-		this.el.setAttribute('height',this.state.height);
+		this.el = document.createElement('figure');
+
+		const WIDTH_IN_PERCENT_OF_PARENT = 100,
+    		HEIGHT_IN_PERCENT_OF_PARENT = 80;
+
+		const gd3 = d3.select(this.el)
+    		.style({
+        		width: WIDTH_IN_PERCENT_OF_PARENT + '%',
+        		'margin-left': (100 - WIDTH_IN_PERCENT_OF_PARENT) / 2 + '%',
+
+        		height: HEIGHT_IN_PERCENT_OF_PARENT + 'vh',
+        		'margin-top': (100 - HEIGHT_IN_PERCENT_OF_PARENT) / 2 + 'vh'
+    		});
+
+			this.gd = gd3.node();
 		this.initEventListeners();
 	}
 	initEventListeners(){
 		window.addEventListener("resize",(e)=>{
-			this.updateState();
+			console.log("Resize");
+			Plotly.Plots.resize(this.gd);
 		})
 
 		window.addEventListener("orientationchange", ()=>{
-		    this.updateState();
+		    Plotly.Plots.resize(this.gd);
 		});
-
-	}
-	updateState(){
-		let newWidth = this.containerEl.offsetWidth;
-		let newHeight = this.containerEl.offsetWidth*.8;
-		if(newWidth!= this._state.width){
-			newHeight = (newWidth/this._state.width)*this._state.height;
-		}
-		this.state = Object.assign({},this.state);
-		this.state.width = newWidth;
-		this.state.height = newHeight;
-		this.el.setAttribute('width',this.state.width);
-		this.el.setAttribute('height',this.state.height);
-	}
-	update(){
 
 	}
 

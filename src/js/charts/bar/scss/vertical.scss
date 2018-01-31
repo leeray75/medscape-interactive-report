@@ -1,0 +1,45 @@
+svg.vertical-bar{
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	> g{
+		> rect.bar{
+			fill: #00c;
+			&.data-critical-care{
+				fill: #c00;
+			}
+		}
+		>g{
+			&.axis{
+				path, line{
+				  fill: none;
+				  stroke: #D4D8DA;
+				  stroke-width: 1px;
+				  shape-rendering: crispEdges;
+				}
+
+				&.x{
+					path{
+						display: none;
+					}
+				}
+
+				&.y{
+					.tick{
+						text{
+							fill: #00c;
+						}
+						&.data-critical-care{
+							text{
+								fill: #c00;
+							}
+						}
+					}
+				}
+
+			}
+			
+		}
+	}
+}
+

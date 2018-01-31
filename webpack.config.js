@@ -1,6 +1,9 @@
 let path = require("path");
 let webpack = require("webpack");
 let CommonsChunkPlugin = webpack.optimize.CommonsChunkPlugin;
+const CleanWebpackPlugin = require('clean-webpack-plugin');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+const UglifyJSPlugin = require('uglifyjs-webpack-plugin');
 
 module.exports = {
   entry: {
@@ -12,15 +15,20 @@ module.exports = {
     publicPath: "/js/",
     filename: "[name].bundle.js"
   },
-  /*
+  
   plugins: [
+    new CleanWebpackPlugin(['dist']),
+    new HtmlWebpackPlugin({ title: 'Production'}),
+    new UglifyJSPlugin({ sourceMap: true })
+  /*
     new CommonsChunkPlugin({
       // The order of this array matters
       names: ["common"],
       minChunks: 2
     })
+    */
   ],
-  */
+  
   resolve: {
       modules: [ 'node_modules' ],
       extensions: ['.js','.scss'],
@@ -33,6 +41,7 @@ module.exports = {
     },
     module: {
       loaders:[
+      /*
         {
           test: /\.js?$/,
           loader: 'babel-loader',
@@ -41,7 +50,11 @@ module.exports = {
             presets: ['es2015']
           }
         },
-
+      */
+            {
+                test: /\.js$/,
+                loader: 'ify-loader'
+            },
         {
           test: /\.(scss|css)$/,
           loaders: ['style-loader', 'css-loader', 

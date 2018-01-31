@@ -1,28 +1,65 @@
 [
-
 	{
-		"id": "1000",
-		"name": "Allergy & Immunology",
-		"value": 61
+		"id": "1111",
+		"name": "male",
+		"data": [
+			{
+				"id": "1000",
+				"name": "Allergy & Immunology",
+				"value": 61
+			},
+			{
+				"id": "1001",
+				"name": "Plastic Surgery",
+				"value": 54
+			},
+			{
+				"id": "1002",
+				"name": "Surgery, General",
+				"value": 52
+			},
+			{
+				"id": "1003",
+				"name": "Critical Care",
+				"value": 48
+			},
+			{
+				"id": "1004",
+				"name": "Cardiology",
+				"value": 40
+			}
+		]
 	},
 	{
-		"id": "1001",
-		"name": "Plastic Surgery",
-		"value": 54
-	},
-	{
-		"id": "1002",
-		"name": "Surgery, General",
-		"value": 52
-	},
-	{
-		"id": "1003",
-		"name": "Critical Care",
-		"value": 48
-	},
-	{
-		"id": "1004",
-		"name": "Cardiology",
-		"value": 40
+		"id": "2222",
+		"name": "female",
+		"data": [
+			{
+				"id": "1000",
+				"name": "Allergy & Immunology",
+				"value": 81
+			},
+			{
+				"id": "1001",
+				"name": "Plastic Surgery",
+				"value": 20
+			},
+			{
+				"id": "1002",
+				"name": "Surgery, General",
+				"value": 44
+			},
+			{
+				"id": "1003",
+				"name": "Critical Care",
+				"value": 66
+			},
+			{
+				"id": "1004",
+				"name": "Cardiology",
+				"value": 40
+			}
+		]
 	}
+
 ]

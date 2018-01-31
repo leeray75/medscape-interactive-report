@@ -1,4 +1,5 @@
-import {HorizontalBar} from './charts/bar'
+import {HorizontalBar, VerticalBar} from './charts/bar'
+
 fetch("data.json").then(
 (response)=>{
   return(response.json())
@@ -9,10 +10,12 @@ fetch("data.json").then(
   throw error;
 }
 ).then((data)=>{
-    const mainEl = document.getElementsByTagName('main')[0];
-    data.forEach( (data)=>{
-      data.name = `${data.name} - ${data.value}%`;
-    })
-    const horizontalBar = new HorizontalBar(mainEl,data);
-    mainEl.append(horizontalBar.render())
+    const verticalEl = document.getElementById('vertical-chart');
+    const horizontalEl = document.getElementById('horizontal-chart');
+ 	const vChart = new VerticalBar(data,verticalEl);
+ 	const hChart = new HorizontalBar(data,horizontalEl);
+ 	vChart.render();
+ 	hChart.render();
+
+    //mainEl.append(chart.render())
 })

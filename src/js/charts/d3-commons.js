@@ -1,9 +1,10 @@
-import {select, scaleLinear, scaleBand, axisBottom, axisLeft } from 'd3';
+import {select, scaleLinear, scaleBand, axisBottom, axisLeft, max } from 'd3';
 const d3Commons = {
   select,
   scaleLinear,
   scaleBand,
   axisBottom,
-  axisLeft
+  axisLeft,
+  max
 }
 export default d3Commons;
