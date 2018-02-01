@@ -1,0 +1,638 @@
+[
+	{
+		"id": "1000",
+		"specialty": "Allergy & Immunology",
+		"values": 1,
+		"gender": "male"
+	},
+	{
+		"id": "1001",
+		"specialty": "Plastic Surgery",
+		"values": 1,
+		"gender": "male"
+	},
+	{
+		"id": "1002",
+		"specialty": "Surgery, General",
+		"values": 1,
+		"gender": "male"
+	},
+	{
+		"id": "1003",
+		"specialty": "Critical Care",
+		"values": 1,
+		"gender": "male"
+	},
+	{
+		"id": "1004",
+		"specialty": "Cardiology",
+		"values": 1,
+		"gender": "male"
+	},
+	{
+		"id": "1000",
+		"specialty": "Allergy & Immunology",
+		"values": 1,
+		"gender": "female"
+	},
+	{
+		"id": "1001",
+		"specialty": "Plastic Surgery",
+		"values": 1,
+		"gender": "female"
+	},
+	{
+		"id": "1002",
+		"specialty": "Surgery, General",
+		"values": 1,
+		"gender": "female"
+	},
+	{
+		"id": "1003",
+		"specialty": "Critical Care",
+		"values": 1,
+		"gender": "female"
+	},
+	{
+		"id": "1004",
+		"specialty": "Cardiology",
+		"values": 1,
+		"gender": "female"
+	},
+	{
+		"id": "1000",
+		"specialty": "Allergy & Immunology",
+		"values": 1,
+		"gender": "male"
+	},
+	{
+		"id": "1001",
+		"specialty": "Plastic Surgery",
+		"values": 1,
+		"gender": "male"
+	},
+	{
+		"id": "1002",
+		"specialty": "Surgery, General",
+		"values": 1,
+		"gender": "male"
+	},
+	{
+		"id": "1003",
+		"specialty": "Critical Care",
+		"values": 1,
+		"gender": "male"
+	},
+	{
+		"id": "1004",
+		"specialty": "Cardiology",
+		"values": 1,
+		"gender": "male"
+	},
+	{
+		"id": "1000",
+		"specialty": "Allergy & Immunology",
+		"values": 1,
+		"gender": "female"
+	},
+	{
+		"id": "1001",
+		"specialty": "Plastic Surgery",
+		"values": 1,
+		"gender": "female"
+	},
+	{
+		"id": "1002",
+		"specialty": "Surgery, General",
+		"values": 1,
+		"gender": "female"
+	},
+	{
+		"id": "1003",
+		"specialty": "Critical Care",
+		"values": 1,
+		"gender": "female"
+	},
+	{
+		"id": "1004",
+		"specialty": "Cardiology",
+		"values": 1,
+		"gender": "female"
+	},
+	{
+		"id": "1000",
+		"specialty": "Allergy & Immunology",
+		"values": 1,
+		"gender": "male"
+	},
+	{
+		"id": "1001",
+		"specialty": "Plastic Surgery",
+		"values": 1,
+		"gender": "male"
+	},
+	{
+		"id": "1002",
+		"specialty": "Surgery, General",
+		"values": 1,
+		"gender": "male"
+	},
+	{
+		"id": "1003",
+		"specialty": "Critical Care",
+		"values": 1,
+		"gender": "male"
+	},
+	{
+		"id": "1004",
+		"specialty": "Cardiology",
+		"values": 1,
+		"gender": "male"
+	},
+	{
+		"id": "1000",
+		"specialty": "Allergy & Immunology",
+		"values": 1,
+		"gender": "female"
+	},
+	{
+		"id": "1001",
+		"specialty": "Plastic Surgery",
+		"values": 1,
+		"gender": "female"
+	},
+	{
+		"id": "1002",
+		"specialty": "Surgery, General",
+		"values": 1,
+		"gender": "female"
+	},
+	{
+		"id": "1003",
+		"specialty": "Critical Care",
+		"values": 1,
+		"gender": "female"
+	},
+	{
+		"id": "1004",
+		"specialty": "Cardiology",
+		"values": 1,
+		"gender": "female"
+	},
+	{
+		"id": "1000",
+		"specialty": "Allergy & Immunology",
+		"values": 1,
+		"gender": "male"
+	},
+	{
+		"id": "1001",
+		"specialty": "Plastic Surgery",
+		"values": 4,
+		"gender": "male"
+	},
+	{
+		"id": "1002",
+		"specialty": "Surgery, General",
+		"values": 12,
+		"gender": "male"
+	},
+	{
+		"id": "1003",
+		"specialty": "Critical Care",
+		"values": 1,
+		"gender": "male"
+	},
+	{
+		"id": "1004",
+		"specialty": "Cardiology",
+		"values": 1,
+		"gender": "male"
+	},
+	{
+		"id": "1000",
+		"specialty": "Allergy & Immunology",
+		"values": 1,
+		"gender": "female"
+	},
+	{
+		"id": "1001",
+		"specialty": "Plastic Surgery",
+		"values": 1,
+		"gender": "female"
+	},
+	{
+		"id": "1002",
+		"specialty": "Surgery, General",
+		"values": 1,
+		"gender": "female"
+	},
+	{
+		"id": "1003",
+		"specialty": "Critical Care",
+		"values": 1,
+		"gender": "female"
+	},
+	{
+		"id": "1004",
+		"specialty": "Cardiology",
+		"values": 1,
+		"gender": "female"
+	},
+	{
+		"id": "1000",
+		"specialty": "Allergy & Immunology",
+		"values": 1,
+		"gender": "male"
+	},
+	{
+		"id": "1001",
+		"specialty": "Plastic Surgery",
+		"values": 1,
+		"gender": "male"
+	},
+	{
+		"id": "1002",
+		"specialty": "Surgery, General",
+		"values": 1,
+		"gender": "male"
+	},
+	{
+		"id": "1003",
+		"specialty": "Critical Care",
+		"values": 1,
+		"gender": "male"
+	},
+	{
+		"id": "1004",
+		"specialty": "Cardiology",
+		"values": 1,
+		"gender": "male"
+	},
+	{
+		"id": "1000",
+		"specialty": "Allergy & Immunology",
+		"values": 1,
+		"gender": "female"
+	},
+	{
+		"id": "1001",
+		"specialty": "Plastic Surgery",
+		"values": 1,
+		"gender": "female"
+	},
+	{
+		"id": "1002",
+		"specialty": "Surgery, General",
+		"values": 1,
+		"gender": "female"
+	},
+	{
+		"id": "1003",
+		"specialty": "Critical Care",
+		"values": 5,
+		"gender": "female"
+	},
+	{
+		"id": "1004",
+		"specialty": "Cardiology",
+		"values": 1,
+		"gender": "female"
+	},
+	{
+		"id": "1000",
+		"specialty": "Allergy & Immunology",
+		"values": 1,
+		"gender": "male"
+	},
+	{
+		"id": "1001",
+		"specialty": "Plastic Surgery",
+		"values": 1,
+		"gender": "male"
+	},
+	{
+		"id": "1002",
+		"specialty": "Surgery, General",
+		"values": 1,
+		"gender": "male"
+	},
+	{
+		"id": "1000",
+		"specialty": "Allergy & Immunology",
+		"values": 1,
+		"gender": "male"
+	},
+	{
+		"id": "1001",
+		"specialty": "Plastic Surgery",
+		"values": 1,
+		"gender": "male"
+	},
+	{
+		"id": "1002",
+		"specialty": "Surgery, General",
+		"values": 1,
+		"gender": "male"
+	},
+	{
+		"id": "1003",
+		"specialty": "Critical Care",
+		"values": 1,
+		"gender": "male"
+	},
+	{
+		"id": "1004",
+		"specialty": "Cardiology",
+		"values": 1,
+		"gender": "male"
+	},
+	{
+		"id": "1000",
+		"specialty": "Allergy & Immunology",
+		"values": 1,
+		"gender": "female"
+	},
+	{
+		"id": "1001",
+		"specialty": "Plastic Surgery",
+		"values": 1,
+		"gender": "female"
+	},
+	{
+		"id": "1002",
+		"specialty": "Surgery, General",
+		"values": 1,
+		"gender": "female"
+	},
+	{
+		"id": "1003",
+		"specialty": "Critical Care",
+		"values": 1,
+		"gender": "female"
+	},
+	{
+		"id": "1004",
+		"specialty": "Cardiology",
+		"values": 1,
+		"gender": "female"
+	},
+	{
+		"id": "1000",
+		"specialty": "Allergy & Immunology",
+		"values": 1,
+		"gender": "male"
+	},
+	{
+		"id": "1001",
+		"specialty": "Plastic Surgery",
+		"values": 1,
+		"gender": "male"
+	},
+	{
+		"id": "1002",
+		"specialty": "Surgery, General",
+		"values": 1,
+		"gender": "male"
+	},
+	{
+		"id": "1003",
+		"specialty": "Critical Care",
+		"values": 1,
+		"gender": "male"
+	},
+	{
+		"id": "1004",
+		"specialty": "Cardiology",
+		"values": 1,
+		"gender": "male"
+	},
+	{
+		"id": "1000",
+		"specialty": "Allergy & Immunology",
+		"values": 1,
+		"gender": "female"
+	},
+	{
+		"id": "1001",
+		"specialty": "Plastic Surgery",
+		"values": 1,
+		"gender": "female"
+	},
+	{
+		"id": "1002",
+		"specialty": "Surgery, General",
+		"values": 1,
+		"gender": "female"
+	},
+	{
+		"id": "1003",
+		"specialty": "Critical Care",
+		"values": 1,
+		"gender": "female"
+	},
+	{
+		"id": "1004",
+		"specialty": "Cardiology",
+		"values": 1,
+		"gender": "female"
+	},
+	{
+		"id": "1000",
+		"specialty": "Allergy & Immunology",
+		"values": 1,
+		"gender": "male"
+	},
+	{
+		"id": "1001",
+		"specialty": "Plastic Surgery",
+		"values": 1,
+		"gender": "male"
+	},
+	{
+		"id": "1002",
+		"specialty": "Surgery, General",
+		"values": 1,
+		"gender": "male"
+	},
+	{
+		"id": "1003",
+		"specialty": "Critical Care",
+		"values": 1,
+		"gender": "male"
+	},
+	{
+		"id": "1004",
+		"specialty": "Cardiology",
+		"values": 1,
+		"gender": "male"
+	},
+	{
+		"id": "1000",
+		"specialty": "Allergy & Immunology",
+		"values": 1,
+		"gender": "female"
+	},
+	{
+		"id": "1001",
+		"specialty": "Plastic Surgery",
+		"values": 1,
+		"gender": "female"
+	},
+	{
+		"id": "1002",
+		"specialty": "Surgery, General",
+		"values": 1,
+		"gender": "female"
+	},
+	{
+		"id": "1003",
+		"specialty": "Critical Care",
+		"values": 1,
+		"gender": "female"
+	},
+	{
+		"id": "1004",
+		"specialty": "Cardiology",
+		"values": 1,
+		"gender": "female"
+	},
+	{
+		"id": "1000",
+		"specialty": "Allergy & Immunology",
+		"values": 1,
+		"gender": "male"
+	},
+	{
+		"id": "1001",
+		"specialty": "Plastic Surgery",
+		"values": 4,
+		"gender": "male"
+	},
+	{
+		"id": "1002",
+		"specialty": "Surgery, General",
+		"values": 12,
+		"gender": "male"
+	},
+	{
+		"id": "1003",
+		"specialty": "Critical Care",
+		"values": 1,
+		"gender": "male"
+	},
+	{
+		"id": "1004",
+		"specialty": "Cardiology",
+		"values": 1,
+		"gender": "male"
+	},
+	{
+		"id": "1000",
+		"specialty": "Allergy & Immunology",
+		"values": 1,
+		"gender": "female"
+	},
+	{
+		"id": "1001",
+		"specialty": "Plastic Surgery",
+		"values": 1,
+		"gender": "female"
+	},
+	{
+		"id": "1002",
+		"specialty": "Surgery, General",
+		"values": 1,
+		"gender": "female"
+	},
+	{
+		"id": "1003",
+		"specialty": "Critical Care",
+		"values": 1,
+		"gender": "female"
+	},
+	{
+		"id": "1004",
+		"specialty": "Cardiology",
+		"values": 1,
+		"gender": "female"
+	},
+	{
+		"id": "1000",
+		"specialty": "Allergy & Immunology",
+		"values": 1,
+		"gender": "male"
+	},
+	{
+		"id": "1001",
+		"specialty": "Plastic Surgery",
+		"values": 1,
+		"gender": "male"
+	},
+	{
+		"id": "1002",
+		"specialty": "Surgery, General",
+		"values": 1,
+		"gender": "male"
+	},
+	{
+		"id": "1003",
+		"specialty": "Critical Care",
+		"values": 1,
+		"gender": "male"
+	},
+	{
+		"id": "1004",
+		"specialty": "Cardiology",
+		"values": 1,
+		"gender": "male"
+	},
+	{
+		"id": "1000",
+		"specialty": "Allergy & Immunology",
+		"values": 1,
+		"gender": "female"
+	},
+	{
+		"id": "1001",
+		"specialty": "Plastic Surgery",
+		"values": 1,
+		"gender": "female"
+	},
+	{
+		"id": "1002",
+		"specialty": "Surgery, General",
+		"values": 1,
+		"gender": "female"
+	},
+	{
+		"id": "1003",
+		"specialty": "Critical Care",
+		"values": 1,
+		"gender": "female"
+	},
+	{
+		"id": "1004",
+		"specialty": "Cardiology",
+		"values": 1,
+		"gender": "female"
+	},
+	{
+		"id": "1000",
+		"specialty": "Allergy & Immunology",
+		"values": 1,
+		"gender": "male"
+	},
+	{
+		"id": "1001",
+		"specialty": "Plastic Surgery",
+		"values": 1,
+		"gender": "male"
+	},
+	{
+		"id": "1002",
+		"specialty": "Surgery, General",
+		"values": 1,
+		"gender": "male"
+	}			
+]

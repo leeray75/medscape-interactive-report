@@ -7,8 +7,9 @@
     "start": "concurrently \"npm run server\"",
     "server": "webpack-dev-server --progress --colors --content-base ./public --history-api-fallback --config webpack-dev.config.js",
     "gulp": "gulp",
-    "webpack": "webpack --progress --display-error-details --config webpack.config.js",
-    "dist": "concurrently \"npm run gulp\" \"npm run webpack\""
+    "webpack": "webpack --progress --display-error-details --config webpack-dist.config.js",
+    "_dist": "concurrently \"npm run gulp\" \"npm run webpack\"",
+    "dist": "npm run webpack"
   },
   "repository": {
     "type": "git",

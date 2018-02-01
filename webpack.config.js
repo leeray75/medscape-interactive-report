@@ -1,9 +1,7 @@
 let path = require("path");
 let webpack = require("webpack");
 let CommonsChunkPlugin = webpack.optimize.CommonsChunkPlugin;
-const CleanWebpackPlugin = require('clean-webpack-plugin');
-const HtmlWebpackPlugin = require('html-webpack-plugin');
-const UglifyJSPlugin = require('uglifyjs-webpack-plugin');
+
 
 module.exports = {
   entry: {
@@ -17,9 +15,6 @@ module.exports = {
   },
   
   plugins: [
-    new CleanWebpackPlugin(['dist']),
-    new HtmlWebpackPlugin({ title: 'Production'}),
-    new UglifyJSPlugin({ sourceMap: true })
   /*
     new CommonsChunkPlugin({
       // The order of this array matters

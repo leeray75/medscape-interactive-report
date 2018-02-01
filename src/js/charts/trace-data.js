@@ -3,20 +3,20 @@ export default class TraceData{
 		let x = [];
     	let y = [];
 
-	    groupData.data.forEach( (d)=>{
+	    groupData.values.forEach( (d)=>{
 	    	if(chartProps.orientation=='h'){
-		    	y.push(d.name);
-		    	x.push(d.value);
+		    	y.push(d.key);
+		    	x.push(d.values);
 	    	}else{
-		    	y.push(d.value);
-		    	x.push(d.name);
+		    	y.push(d.values);
+		    	x.push(d.key);
 	    	}
 
 	    })
 	    const _data = {
 	    	x,
 	    	y,
-	    	name: groupData.name
+	    	name: groupData.key
 	    }
 	    chartProps = Object.assign({},chartProps);
 
