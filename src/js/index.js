@@ -1,8 +1,8 @@
 import {HorizontalBar, VerticalBar} from './charts/bar'
 import Plotly from 'npm/plotly.js/lib/core';
 
-const primaryGroup = "gender";
-const groupName = "specialty"
+const primaryGroup = "specialty";
+const groupName = "gender"
 fetch("data-all.json").then(
 (response)=>{
   return(response.json())

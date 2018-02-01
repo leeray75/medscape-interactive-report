@@ -23,7 +23,7 @@ export default class HorizontalBar extends ResponsiveChart{
     	console.log("Data:",data);
     	const chartProps = {
     		orientation: 'h',
-    		type: 'bar'
+    		type: 'pie'
     	}
 
     	const plotlyData = this.getPlotlyData(data,chartProps);

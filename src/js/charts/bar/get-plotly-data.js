@@ -1,4 +1,4 @@
-import TraceData from 'app/charts/trace-data';
+import TraceData from './trace-data';
 const getPlotlyData = (data,chartProps)=>{
 	const plotlyData = [];
 	if(Array.isArray(data[0].values)){
