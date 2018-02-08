@@ -1,11 +1,8 @@
 import Plotly from 'npm/plotly.js/lib/core';
 const d3 = Plotly.d3;
 export default class ResponsiveChart{
-	constructor(containerEl){
-
-		this.containerEl = containerEl;
-		this.el = document.createElement('figure');
-
+	constructor(el=document.createElement('figure')){
+		this.el = el;
 		const WIDTH_IN_PERCENT_OF_PARENT = 100,
     		HEIGHT_IN_PERCENT_OF_PARENT = 80;
 
@@ -18,7 +15,7 @@ export default class ResponsiveChart{
         		'margin-top': (100 - HEIGHT_IN_PERCENT_OF_PARENT) / 2 + 'vh'
     		});
 
-			this.gd = gd3.node();
+		this.gd = gd3.node();
 		this.initEventListeners();
 	}
 	initEventListeners(){

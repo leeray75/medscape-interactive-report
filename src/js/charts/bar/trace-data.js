@@ -1,27 +1,28 @@
 export default class TraceData{
 	constructor(groupData,chartProps = {}){
-		let x = [];
-    	let y = [];
-
-	    groupData.values.forEach( (d)=>{
+		this.x = [];
+    	this.y = [];
+    	this.marker = {};
+    	this.name = groupData.key;
+    	this.type = 'bar';
+    	const values = groupData.values.sort((value1,value2)=>{
+    		return value1.key.localeCompare(value2.key);
+    	})
+	    values.forEach( (d)=>{
 	    	if(chartProps.orientation=='h'){
-		    	y.push(d.key);
-		    	x.push(d.values);
+		    	this.y.push(d.key);
+		    	this.x.push(d.values);
 	    	}else{
-		    	y.push(d.values);
-		    	x.push(d.key);
+		    	this.y.push(d.values);
+		    	this.x.push(d.key);
 	    	}
 
 	    })
-	    const _data = {
-	    	x,
-	    	y,
-	    	name: groupData.key
-	    }
-	    chartProps = Object.assign({},chartProps);
 
-	    let chartData = Object.assign(chartProps,_data);
-	    const entries = Object.entries(chartData);
+	    let chartData = Object.assign({},chartProps);
+
+	    let entries = Object.entries(chartData);
+
 	    entries.forEach( (entry)=>{
 	    	this[entry[0]]=entry[1];
 	    })

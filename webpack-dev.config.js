@@ -2,7 +2,7 @@ let webpackConfig = require('./webpack.config');
 const devServer = {
   disableHostCheck: true,
   host: 'localhost.medscape.com',
-  port: 8080,
+  port: 8181,
   headers: { 'Access-Control-Allow-Origin': '*' },
 	proxy: {
 	  '/api': {

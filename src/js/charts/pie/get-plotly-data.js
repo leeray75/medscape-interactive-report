@@ -1,6 +1,7 @@
 import TraceData from './trace-data';
-const getPlotlyData = (data,chartProps)=>{
+const getPlotlyData = (data=[],chartProps)=>{
 	const plotlyData = [];
+	console.log("data:",data);
 	if(Array.isArray(data[0].values)){
     	data.forEach( (groupData)=>{
     		const traceData = new TraceData(groupData,chartProps);
