@@ -1,5 +1,6 @@
 import {HorizontalBar, VerticalBar} from './charts/bar';
-import { BasicPie } from './charts/pie';
+import { BasicPie, SubplotsPie } from './charts/pie';
+import UsaMap from './charts/map/usa';
 import Service from './services';
 import Filters from './filters';
 import 'styles/global.scss';
@@ -86,9 +87,10 @@ const configs = [
 	}
 
 ]
+/*
 const service = new Service();
-const config = configs[0];
-const Chart = BasicPie;
+const config = configs[1];
+const Chart = VerticalBar;
 service.getAll().then((data)=>{
 	console.log("Data:",data);
 	window.data = data;
@@ -120,5 +122,10 @@ service.getAll().then((data)=>{
 
  	})
 
+ 	
+
     //mainEl.append(chart.render())
 })
+*/
+const usaMap = new UsaMap();
+usaMap.drawChart();

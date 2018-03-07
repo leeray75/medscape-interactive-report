@@ -2,7 +2,8 @@ export default class TraceData{
 	constructor(groupData,chartProps = {}){
 		let values = [];
     	let labels = [];
-
+    	this.name = groupData.key;
+    	this.type="pie";
 	    groupData.values.forEach( (d)=>{
 	    	values.push(d.values);
 	    	labels.push(d.key);

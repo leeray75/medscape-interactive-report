@@ -46,7 +46,9 @@ export default class PieChart extends ResponsiveChart{
 		const plotlyData = [];
 		console.log("data:",data);
 		if(Array.isArray(data[0].values)){
-	    	data.forEach( (groupData)=>{
+			
+	    	data.forEach( (groupData,index)=>{
+
 	    		const traceData = new TraceData(groupData,chartProps);
 	    		plotlyData.push(traceData)
 	    	})

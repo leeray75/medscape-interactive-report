@@ -1,0 +1,50 @@
+[  
+   {  
+      "years":"1",
+      "place":"Huntington Beach",
+      "lat":"33.6595",
+      "lon":"-117.9988"
+   },
+   {  
+      "years":"3",
+      "place":"New York City",
+      "lat":"40.7128",
+      "lon":"-74.0060"
+   },
+   {  
+      "years":"3",
+      "place":"Austin",
+      "lat":"30.2672",
+      "lon":"-97.7431"
+   },
+   {  
+      "years":"3",
+      "place":"Seattle",
+      "lat":"47.6062",
+      "lon":"-122.3321"
+   },
+   {  
+      "years":"3",
+      "place":"San Francisco",
+      "lat":"37.7749",
+      "lon":"-122.4194"
+   },
+   {  
+      "years":"3",
+      "place":"Hermosa Beach",
+      "lat":"33.8622",
+      "lon":"-118.3995"
+   },
+   {  
+      "years":"3",
+      "place":"Manhattan Beach",
+      "lat":"33.8847",
+      "lon":"-118.4109"
+   },
+   {  
+      "years":"3",
+      "place":"Chicago",
+      "lat":"41.8781",
+      "lon":"-87.6298"
+   }
+]
