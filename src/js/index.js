@@ -16,16 +16,18 @@ const configs = [
 		{
 			column: "gender"
 		},
+		/*
 		filters: [
 			{
 				name: "isHappy",
 				values: [true]
 			}
 		],
+		*/
 		colors:[
 			{
 				grouping: 'Male',
-				value: '#333'
+				value: '#006'
 			},
 			{
 				grouping: 'Female',
@@ -80,17 +82,47 @@ const configs = [
 				value: '#009'
 			}
 
+		],
+		layout:{
+	    	yaxis:{
+	    		tickformat: '$,'
+	    	}
+		}
+	},
+	{
+		title: "Specialists Salaries Grouping",
+		primaryGroup: "gender",
+		//valueColumn: "salary",
+		filters: [
+			{
+				name: "specialty",
+				values: ["Cardiology"]
+			}
+		],
+		colors:[
+			{
+				primaryGroup: 'Male',
+				value: '#009'
+
+			},
+			{
+				primaryGroup: 'Female',
+				value: '#900'
+			}
 		]
+
 	},
 	{
 		primaryGroup: "isHappy"
 	}
 
 ]
-/*
+
 const service = new Service();
 const config = configs[1];
 const Chart = VerticalBar;
+let isRendered = false;
+
 service.getAll().then((data)=>{
 	console.log("Data:",data);
 	window.data = data;
@@ -104,28 +136,56 @@ service.getAll().then((data)=>{
  	document.getElementById('filters').appendChild(filter.el);
  	filter.render();
  	filterState.update(config.filters);
- 	let subscription = filterState.subscribe( (newFilters)=>{
+ 	let subscription = filterState.debounceTime(100).subscribe( (newFilters)=>{
+ 		console.log("Config:",config);
  		console.log("Updating config filters", newFilters);
- 		if(vChart!=null){
- 			verticalEl.removeChild(vChart.el);
- 		}
+
+
  		config.filters = newFilters.filter( (filter)=>{
  			return filter.values.length>0;
  		});
+
  		service.getSum(config).then( (plotData)=>{
 	 		console.log("plotData:",plotData);
-		 	vChart = new Chart(plotData,verticalEl);
-		 	vChart.setColors(config.colors)
-		 	vChart.render();
+	 		if(!isRendered){
+		 		if(vChart!=null){
+		 			verticalEl.removeChild(vChart.el);
+		 		}
+	 			console.log("create new chart");
+			 	vChart = new Chart(plotData,verticalEl,config.layout);
+			 	vChart.setColors(config.colors);
+			 	vChart.render();
+			 	//isRendered = true;
+		 	}
+		 	else{
+		 		vChart.update(plotData);
+		 	}
  		});
-
-
  	})
 
- 	
+ 	const usaMap = new UsaMap();
+ 	usaMap.setObservableData(filterState);
+	usaMap.drawChart(data);
+
+	usaMap.mapService.click.subscribe((state=null)=>{
+		console.log("State:",state);
+		let filters = [];
+		if(state!=null){
+			filters = [...filterState.filters,
+			{
+				name: "state",
+				values:[state.abbreviation]
+			}];
+		}
+		else if(config.hasOwnProperty('filters')){
+			filters = config.filters.filter( (filter)=>{
+				return filter.name!="state";
+			})
+		}
+		console.log("filters:",filters);
+		filterState.update(filters);
+	})
 
     //mainEl.append(chart.render())
 })
-*/
-const usaMap = new UsaMap();
-usaMap.drawChart();
+

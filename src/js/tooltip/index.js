@@ -14,13 +14,18 @@ export default class Tooltip{
 			if(data==null) return;
 			this.el.style['top']= data.pageY+'px';
 			this.el.style['left']=data.pageX+'px';
-			this.render(data.message);
+			let _data = {
+				message: '',
+				data: []
+			}
+			_data = Object.assign(_data,data);
+			this.render(_data);
 		})
 	}
 
-	render(msg=""){
-		this.el.innerHTML = msg;
-		this.el.style.display= (msg.length==0) ? "none" : "";
+	render(data){
+		this.el.innerHTML = data.message;
+		this.el.style.display= (data.message.length==0) ? "none" : "";
 	}
 
 }

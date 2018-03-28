@@ -11,6 +11,7 @@ const getFilteredData = function(filters=[]){
 			return isValid;
 		})
 	}
+	console.log("Filtered Data:",data);
 	return data;
 }
 export default getFilteredData;

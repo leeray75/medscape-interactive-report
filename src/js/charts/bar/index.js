@@ -6,5 +6,6 @@ import VerticalBar from './vertical'
 Plotly.register([
 	Bar
 ])
+window.Plotly = Plotly;
 export { HorizontalBar };
 export { VerticalBar };

@@ -1,12 +1,13 @@
 import { BehaviorSubject }from 'rxjs/Rx';
 import * as Rx from 'rxjs/Rx';
 window.Rx = Rx;
-class MapService extends BehaviorSubject{
+class MapService{
 	constructor(){
-		super();
+		this.hover = new BehaviorSubject();
+		this.click = new BehaviorSubject();
 	}
 	update(){
 
 	}
 }
-export default new MapService();
+export default MapService;

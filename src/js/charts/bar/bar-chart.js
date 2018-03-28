@@ -15,7 +15,7 @@ export default class BarChart extends ResponsiveChart{
 		console.log("color:",this.colors);
 	    plotlyData.forEach( (plotData)=>{
 	    	const colors = this.colors.filter( (color)=>{
-	    		return plotData.name.toLowerCase()==color.grouping.toLowerCase();
+	    		return color.hasOwnProperty('grouping') ? plotData.name.toLowerCase()==color.grouping.toLowerCase() : true;
 	    	})
 	    	plotData.marker.color = plotData.x.map( (name,i)=>{
 	    		const colorObj = colors.find( (color)=>{

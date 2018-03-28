@@ -1,5 +1,6 @@
 import getAll from './get-all';
 import getSum from './get-sum';
+import getMean from'./get-mean';
 import getPercentage from './get-percentage';
 import getFilteredData from './get-filtered-data';
 import getGroupMappingData from './get-group-mapping-data';
@@ -9,6 +10,7 @@ class Service {
 		this.data = [];
 		this.getAll = getAll.bind(this);
 		this.getSum = getSum.bind(this);
+		this.getMean = getMean.bind(this);
 		this.getPercentage = getPercentage.bind(this);
 		this.getFilteredData = getFilteredData.bind(this);
 		this.getGroupMappingData = getGroupMappingData.bind(this);

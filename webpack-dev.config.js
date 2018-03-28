@@ -5,15 +5,9 @@ const devServer = {
   port: 8181,
   headers: { 'Access-Control-Allow-Origin': '*' },
 	proxy: {
-	  '/api': {
-        target: 'https://www.medscape.com'
+    '/qnaservice': {
+        target: 'http://localhost.medscape.com:8080'
       },
-      '/servicegateway': {
-        target: 'https://api.qa02.medscape.com'
-      },
-      '/ws': {
-        target: 'http://drugservice-app-qa00.prf.iad1.medscape.com:8080'
-      }
 	}
 }
 
