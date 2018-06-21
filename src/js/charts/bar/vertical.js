@@ -17,16 +17,19 @@ export default class VerticalBar extends BarChart{
 		this.colors = [];
 		this.chartProps = {
     		orientation: 'v',
-    		type: 'bar'
-
+    		type: 'bar',
+    		hoverinfo: "y+name+text"
     	}
 	}
 
 	drawChart(){
 		this.el.innerHTML='';
 		const data = this.data;
+		console.log("Draw Chart Data:",data);
 		const gd = this.gd;
-    	let chartProps = this.chartProps;
+    	let chartProps = Object.assign(this.chartProps,{
+    		customdata: data
+    	});
 
    		const plotlyData = this.getPlotlyData(data,chartProps);
 

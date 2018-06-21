@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"observ",
+				"observableData"
+			],
+			[
+				"ob",
+				"observableData"
+			],
+			[
+				"create",
+				"createElement"
+			],
+			[
 				"PlotDat",
 				"PlotDataHelper"
 			],
@@ -23,17 +35,19 @@
 			}
 		},
 		{
+			"file": ".gitignore",
 			"settings":
 			{
-				"buffer_size": 0,
+				"buffer_size": 894,
+				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": ".gitignore",
+			"file": "src/js/filters/list-component.js",
 			"settings":
 			{
-				"buffer_size": 901,
+				"buffer_size": 2539,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -42,7 +56,7 @@
 			"file": "src/js/charts/bar/vertical.js",
 			"settings":
 			{
-				"buffer_size": 1170,
+				"buffer_size": 1753,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -55,7 +69,6 @@
 			"settings":
 			{
 				"buffer_size": 606,
-				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
@@ -108,7 +121,7 @@
 			"file": "src/js/charts/bar/index.js",
 			"settings":
 			{
-				"buffer_size": 264,
+				"buffer_size": 288,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -117,7 +130,7 @@
 			"file": "src/js/charts/pie/index.js",
 			"settings":
 			{
-				"buffer_size": 190,
+				"buffer_size": 251,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -126,7 +139,16 @@
 			"file": "src/js/charts/pie/basic.js",
 			"settings":
 			{
-				"buffer_size": 1139,
+				"buffer_size": 939,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/js/charts/pie/pie-chart.js",
+			"settings":
+			{
+				"buffer_size": 2015,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -144,7 +166,7 @@
 			"file": "src/js/charts/pie/trace-data.js",
 			"settings":
 			{
-				"buffer_size": 499,
+				"buffer_size": 552,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -153,8 +175,106 @@
 			"file": "src/js/index.js",
 			"settings":
 			{
-				"buffer_size": 995,
+				"buffer_size": 3797,
 				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/js/charts/pie/subplots.js",
+			"settings":
+			{
+				"buffer_size": 1209,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/js/charts/get-plot-data.js",
+			"settings":
+			{
+				"buffer_size": 1174,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/js/filters/filter-state.js",
+			"settings":
+			{
+				"buffer_size": 266,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/ralee/projects/qnaservice/.gitignore",
+			"settings":
+			{
+				"buffer_size": 50,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "Searching 203 files for \"\"com.webmd.qnaservice.controller\"\n\n/Users/ralee/projects/qnaservice/src/main/java/com/webmd/qnaservice/app/QnaServiceApplication.java:\n   51   *\n   52   */\n   53: @SpringBootApplication(scanBasePackages={\"com.webmd.qnaservice.controller\",\n   54  \t\t\"com.webmd.qnaservice.exceptionhandler\",\n   55  \t\t\"com.webmd.reports.controller\"})\n   ..\n   69          return new Docket(DocumentationType.SWAGGER_2)  \n   70            .select()                                  \n   71:           .apis(RequestHandlerSelectors.basePackage(\"com.webmd.qnaservice.controller\"))              \n   72            .paths(PathSelectors.any())\n   73            .build()\n\n/Users/ralee/projects/qnaservice/src/main/webapp/WEB-INF/back_qnaService-servlet.xml:\n   15  \n   16      <context:annotation-config />\n   17:     <context:component-scan base-package=\"com.webmd.qnaservice.controller, com.webmd.qnaservice.exceptionhandler\" />\n   18  \n   19  \n\n/Users/ralee/projects/qnaservice/src/test/resources/com/webmd/qnaservice/config/qnaServiceTest-servlet.xml:\n   15  \n   16      <context:annotation-config />\n   17:     <context:component-scan base-package=\"com.webmd.qnaservice.controller, com.webmd.qnaservice.exceptionhandler\" />\n   18  \n   19  \n\n/Users/ralee/projects/qnaservice/target/qnaservice-17.4.3.1/WEB-INF/back_qnaService-servlet.xml:\n   15  \n   16      <context:annotation-config />\n   17:     <context:component-scan base-package=\"com.webmd.qnaservice.controller, com.webmd.qnaservice.exceptionhandler\" />\n   18  \n   19  \n\n/Users/ralee/projects/qnaservice/target/test-classes/com/webmd/qnaservice/config/qnaServiceTest-servlet.xml:\n   15  \n   16      <context:annotation-config />\n   17:     <context:component-scan base-package=\"com.webmd.qnaservice.controller, com.webmd.qnaservice.exceptionhandler\" />\n   18  \n   19  \n\n6 matches across 5 files\n",
+			"settings":
+			{
+				"buffer_size": 1853,
+				"line_ending": "Unix",
+				"name": "Find Results",
+				"scratch": true
+			}
+		},
+		{
+			"file": "/Users/ralee/projects/qnaservice/target/test-classes/com/webmd/qnaservice/config/qnaServiceTest-servlet.xml",
+			"settings":
+			{
+				"buffer_size": 923,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/ralee/projects/qnaservice/src/main/java/com/webmd/qnaservice/filter/PathAuthFilter.java",
+			"settings":
+			{
+				"buffer_size": 1301,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/ralee/projects/qnaservice/src/main/java/com/webmd/qnaservice/controller/BaseController.java",
+			"settings":
+			{
+				"buffer_size": 859,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/js/filters/index.js",
+			"settings":
+			{
+				"buffer_size": 1753,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/specialties.json",
+			"settings":
+			{
+				"buffer_size": 130537,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "",
+			"file": "src/scss/components/filters.scss",
+			"file_size": 0,
+			"file_write_time": 131624874830000000,
+			"settings":
+			{
+				"buffer_size": 0,
 				"line_ending": "Unix"
 			}
 		},
@@ -162,25 +282,7 @@
 			"file": "src/js/services/index.js",
 			"settings":
 			{
-				"buffer_size": 449,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/js/services/get-sum.js",
-			"settings":
-			{
-				"buffer_size": 1441,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/js/services/get-filtered-data.js",
-			"settings":
-			{
-				"buffer_size": 347,
+				"buffer_size": 640,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -189,16 +291,25 @@
 			"file": "src/js/charts/bar/horizontal.js",
 			"settings":
 			{
-				"buffer_size": 1558,
+				"buffer_size": 1369,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "src/js/charts/bar/get-plotly-data.js",
+			"file": "src/js/charts/bar/bar-chart.js",
 			"settings":
 			{
-				"buffer_size": 510,
+				"buffer_size": 2009,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/js/charts/bar/trace-data.js",
+			"settings":
+			{
+				"buffer_size": 694,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -213,10 +324,85 @@
 			}
 		},
 		{
+			"file": "src/js/charts/map/usa.js",
+			"settings":
+			{
+				"buffer_size": 7093,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/cities.json",
+			"settings":
+			{
+				"buffer_size": 867,
+				"encoding": "UTF-8",
+				"line_ending": "Unix",
+				"name": "["
+			}
+		},
+		{
+			"file": "src/js/charts/map/service.js",
+			"settings":
+			{
+				"buffer_size": 245,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/cities-lived.csv",
+			"settings":
+			{
+				"buffer_size": 274,
+				"encoding": "UTF-8",
+				"line_ending": "Unix",
+				"name": "years,place,lat,lon"
+			}
+		},
+		{
+			"file": "src/js/tooltip/index.js",
+			"settings":
+			{
+				"buffer_size": 776,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/js/tooltip/styles.scss",
+			"settings":
+			{
+				"buffer_size": 134,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/states-lived.csv",
+			"settings":
+			{
+				"buffer_size": 585,
+				"encoding": "UTF-8",
+				"line_ending": "Unix",
+				"name": "state,visited"
+			}
+		},
+		{
+			"file": "src/js/charts/map/us-regions-mapping.js",
+			"settings":
+			{
+				"buffer_size": 974,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
 			"file": "src/js/charts/responsive-chart.js",
 			"settings":
 			{
-				"buffer_size": 892,
+				"buffer_size": 849,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -240,10 +426,45 @@
 			}
 		},
 		{
+			"file": "postcss.config.js",
+			"settings":
+			{
+				"buffer_size": 101,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "webpack-dev.config.js",
+			"settings":
+			{
+				"buffer_size": 362,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/js/filters/scss/filters.scss",
+			"settings":
+			{
+				"buffer_size": 256,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/styles/global.scss",
+			"settings":
+			{
+				"buffer_size": 70,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
 			"file": "package.json",
 			"settings":
 			{
-				"buffer_size": 1764,
+				"buffer_size": 1812,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -252,43 +473,37 @@
 			"file": "public/index.html",
 			"settings":
 			{
-				"buffer_size": 549,
+				"buffer_size": 584,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
+			"file": "src/js/charts/map/us-states.js",
+			"settings":
+			{
+				"buffer_size": 89445,
+				"encoding": "UTF-8",
+				"line_ending": "Unix",
+				"name": "export default {\"type\":\"FeatureCollection\",\"featur"
+			}
+		},
+		{
+			"contents": "import Plotly from 'npm/plotly.js/lib/core';\nconst d3 = Plotly.d3;\n\nconst getPlotDataBySum = function(config){\n\tconsole.log(\"This:\",this);\n\tconst data = this.data;\n\tconsole.log(\"data test:\",data);\n\tlet plotData = d3.nest();\n\tconst primaryGroup = config.primaryGroup;\n\tconst groupings = config.hasOwnProperty('groupings') ? config.groupings : [];\n\tif(groupings.length>0){\n\t\tconst groupName = groupings[0].name;\n\t\tconsole.log(\"groupName:\",groupName);\n\t\tconsole.log(\"plotData:\",plotData);\n\t\tplotData = plotData\n\t\t  .key(function(d) { return d[groupName]; })\n\t\t  .entries(data)\n\t\t  .filter( (data)=>{\n\t\t  \tconsole.log(\"data test:\",data)\n\t\t  \tif(groupings[0].hasOwnProperty('value')){\n\t\t  \t\tconsole.log(\"result:\",data.key==groupings[0].value)\n\t\t  \t\treturn data.key==groupings[0].value;\n\t\t  \t}\n\t\t  \telse{\n\t\t  \t\treturn true;\n\t\t  \t}\n\t\t  })\n\t\t  .map( (data)=>{\n\t\t  \tconsole.log(\"map data:\",data);\n\t\t\treturn({\n\t\t\t\tkey: data.key,\n\t\t\t\tvalues: d3.nest()\n\t\t\t\t\t.key((d)=>{ return d[primaryGroup]; })\n\t\t\t\t\t.rollup( (v)=>{ \n\t\t\t\t\t\treturn d3.sum(v, (d)=>{ \n\t\t\t\t\t\t\tlet values = isNaN(d.values) ? 1 : d.values\n\t\t\t\t\t\t\tif(groupings.length>1){\n\t\t\t\t\t\t\t\tconst _groupings = groupings.splice(1);\n\t\t\t\t\t\t\t\tconsole.log(\"_groupings:\",_groupings);\n\t\t\t\t\t\t\t\t_groupings.forEach( (group)=>{\n\t\t\t\t\t\t\t\t\tconst name = group.name;\n\t\t\t\t\t\t\t\t\tvalues = d[name]==group.value ? values : 0;\n\t\t\t\t\t\t\t\t})\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t}\n\t\t\t\t\t\t\treturn values;\n\t\t\t\t\t\t})\n\t\t\t\t\t})\n\t\t\t\t\t.entries(data.values)\n\t\t\t})\n\t\t})\n\n\n\t}\n\telse{\n\t\tplotData = plotData\n\t\t.key((d)=>{ return d[primaryGroup]; })\n\t\t.rollup( (v)=>{ \n\t\t\treturn d3.sum(v, (d)=>{ return isNaN(d.values) ? 1 : d.values})\n\t\t})\n\t\t.entries(data);\n\t}\n\tconsole.log(\"plotData = \",plotData);\n\treturn plotData;\n\n}\n\n\nexport default getPlotDataBySum;",
 			"file": "src/js/plot-data-helper/get-sum.js",
+			"file_size": 1727,
+			"file_write_time": 131620746720000000,
 			"settings":
 			{
 				"buffer_size": 1727,
-				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "src/js/plot-data-helper/index.js",
+			"file": "src/js/services/get-filtered-data.js",
 			"settings":
 			{
-				"buffer_size": 259,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/js/plot-data-helper/get-percentage.js",
-			"settings":
-			{
-				"buffer_size": 1009,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/js/services/get-all.js",
-			"settings":
-			{
-				"buffer_size": 323,
+				"buffer_size": 434,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -297,7 +512,74 @@
 			"file": "src/js/services/get-percentage.js",
 			"settings":
 			{
+				"buffer_size": 1028,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "import getSum from './get-sum';\nimport getPercentage from './get-percentage';\nclass PlotDataHelper{\n\tconstructor(data){\n\t\tthis.data = data;\n\t\tthis.getSum = getSum.bind(this);\n\t\tthis.getPercentage = getPercentage.bind(this);\n\t}\n}\nexport default PlotDataHelper;",
+			"file": "src/js/plot-data-helper/index.js",
+			"file_size": 259,
+			"file_write_time": 131620655160000000,
+			"settings":
+			{
+				"buffer_size": 259,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "import Plotly from 'npm/plotly.js/lib/core';\nconst d3 = Plotly.d3;\n\nconst getPlotDataByPercentage = function(config){\n\tconst data = this.data;\n\tlet plotData = null;\n\tconst primaryGroup = config.primaryGroup;\n\tconst groupings = config.hasOwnProperty('groupings') ? config.groupings : [];\n\tif(groupings.length>0){\n\t\tconst groupName = groupings[0].name;\n\n\n\t\tplotData = d3.nest()\n\t\t  .key(function(d) { return d[primaryGroup]; })\n\t\t  .entries(data)\n\t\t  .map( (data)=>{\n\t\t\treturn({\n\t\t\t\tkey: data.key,\n\t\t\t\tvalues: d3.nest()\n\t\t\t\t\t.rollup( (v)=>{ \n\t\t\t\t\t\tlet valueCount = 0;\n\t\t\t\t\t\tconst totalCount = d3.sum(v, (d)=>{ \n\t\t\t\t\t\t\tvalueCount += d[groupName]==groupings[0].value ? 1 : 0;\n\t\t\t\t\t\t\treturn isNaN(d.values) ? 1 : d.values\n\t\t\t\t\t\t})\n\t\t\t\t\t\tconst value = Math.round((valueCount/totalCount)*100);\n\t\t\t\t\t\tconsole.log(\"value:\",value);\n\t\t\t\t\t\treturn value;\n\t\t\t\t\t})\n\t\t\t\t\t.entries(data.values)\n\t\t\t})\n\t\t})\n\n\n\t}\n\telse{\n\t\tthrow \"Grouping is missing from config.\"\n\t}\n\n\treturn plotData;\n\n}\n\n\nexport default getPlotDataByPercentage;",
+			"file": "src/js/plot-data-helper/get-percentage.js",
+			"file_size": 1009,
+			"file_write_time": 131620753960000000,
+			"settings":
+			{
 				"buffer_size": 1009,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/js/services/get-all.js",
+			"settings":
+			{
+				"buffer_size": 1429,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/js/services/get-sum.js",
+			"settings":
+			{
+				"buffer_size": 1502,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/js/filters/select-component.js",
+			"settings":
+			{
+				"buffer_size": 672,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/js/services/get-mean.js",
+			"settings":
+			{
+				"buffer_size": 1684,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/js/services/get-group-mapping-data.js",
+			"settings":
+			{
+				"buffer_size": 471,
+				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
@@ -342,15 +624,22 @@
 	"expanded_folders":
 	[
 		"/Users/ralee/projects/medscape-interactive-report",
-		"/Users/ralee/projects/medscape-interactive-report/public",
 		"/Users/ralee/projects/medscape-interactive-report/src",
 		"/Users/ralee/projects/medscape-interactive-report/src/js",
-		"/Users/ralee/projects/medscape-interactive-report/src/js/charts",
-		"/Users/ralee/projects/medscape-interactive-report/src/js/charts/bar",
-		"/Users/ralee/projects/medscape-interactive-report/src/js/services"
+		"/Users/ralee/projects/medscape-interactive-report/src/js/filters"
 	],
 	"file_history":
 	[
+		"/Users/ralee/projects/qnaservice/src/test/resources/com/webmd/qnaservice/config/qnaServiceTest-servlet.xml",
+		"/Users/ralee/projects/qnaservice/src/main/webapp/WEB-INF/back_qnaService-servlet.xml",
+		"/Users/ralee/projects/medscape-interactive-report/src/js/components/filters/select-component.js",
+		"/Users/ralee/projects/medscape-interactive-report/src/js/components/filters/list-component.js",
+		"/Users/ralee/projects/medscape-interactive-report/src/styles/components/filters.scss",
+		"/Users/ralee/projects/medscape-interactive-report/src/js/components/filters/filter-state.js",
+		"/Users/ralee/projects/medscape-interactive-report/src/js/components/filters/index.js",
+		"/Users/ralee/projects/medscape-interactive-report/src/js/charts/bar/get-plotly-data.js",
+		"/Users/ralee/projects/medscape-interactive-report/src/scss/components/filters.scss",
+		"/Users/ralee/projects/medscape-interactive-report/src/js/services/get-sum.js",
 		"/Users/ralee/projects/medscape-interactive-report/src/js/charts/get-plot-data.js",
 		"/Users/ralee/projects/medscape-interactive-report/src/js/charts/bar/scss/horizontal.scss",
 		"/Users/ralee/projects/medscape-interactive-report/src/js/utils/plot-data-helper.js",
@@ -359,13 +648,15 @@
 	],
 	"find":
 	{
-		"height": 51.0
+		"height": 24.0
 	},
 	"find_in_files":
 	{
 		"height": 101.0,
 		"where_history":
 		[
+			"/Users/ralee/projects/qnaservice/",
+			"/Users/ralee/projects/qnaservice/src/main/java/"
 		]
 	},
 	"find_state":
@@ -373,6 +664,17 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"\"com.webmd.qnaservice.controller",
+			"com.webmd.qnaservice.controller",
+			"values",
+			"mapservice",
+			"questionnaire/",
+			"/questionnaire",
+			"/pub",
+			"\"/pub",
+			"questionnaire",
+			"/pub/questionnaire",
+			"filterstate",
 			");\n",
 			"key",
 			"::",
@@ -401,7 +703,7 @@
 	"groups":
 	[
 		{
-			"selected": 16,
+			"selected": 44,
 			"sheets":
 			[
 				{
@@ -428,51 +730,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 32,
+					"stack_index": 61,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 0,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 31,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
 					"file": ".gitignore",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 901,
+						"buffer_size": 894,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								420,
-								420
+								894,
+								894
 							]
 						],
 						"settings":
@@ -483,7 +758,36 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 30,
+					"stack_index": 53,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/js/filters/list-component.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2539,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1042,
+								1042
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 630.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 17,
 					"type": "text"
 				},
 				{
@@ -492,15 +796,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1170,
+						"buffer_size": 1753,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								1170
+								944,
+								944
 							]
 						],
 						"settings":
@@ -510,10 +814,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 43.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 21,
+					"stack_index": 11,
 					"type": "text"
 				},
 				{
@@ -535,13 +839,14 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 23,
+					"stack_index": 59,
 					"type": "text"
 				},
 				{
@@ -570,7 +875,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 27,
+					"stack_index": 37,
 					"type": "text"
 				},
 				{
@@ -586,8 +891,8 @@
 						"selection":
 						[
 							[
-								93,
-								93
+								346,
+								346
 							]
 						],
 						"settings":
@@ -596,10 +901,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 7681.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 17,
+					"stack_index": 38,
 					"type": "text"
 				},
 				{
@@ -623,11 +928,11 @@
 						{
 							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
 						},
-						"translation.x": 513.0,
-						"translation.y": 14015.0,
+						"translation.x": 316.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 10,
+					"stack_index": 36,
 					"type": "text"
 				},
 				{
@@ -656,7 +961,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 29,
+					"stack_index": 60,
 					"type": "text"
 				},
 				{
@@ -672,8 +977,8 @@
 						"selection":
 						[
 							[
-								124,
-								124
+								196,
+								196
 							]
 						],
 						"settings":
@@ -684,7 +989,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 9,
+					"stack_index": 33,
 					"type": "text"
 				},
 				{
@@ -693,15 +998,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 264,
+						"buffer_size": 288,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								264
+								238,
+								238
 							]
 						],
 						"settings":
@@ -712,7 +1017,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 22,
+					"stack_index": 25,
 					"type": "text"
 				},
 				{
@@ -721,15 +1026,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 190,
+						"buffer_size": 251,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								190,
-								190
+								251,
+								251
 							]
 						],
 						"settings":
@@ -740,7 +1045,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 8,
+					"stack_index": 48,
 					"type": "text"
 				},
 				{
@@ -749,15 +1054,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1139,
+						"buffer_size": 939,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								877,
-								877
+								0,
+								939
 							]
 						],
 						"settings":
@@ -768,11 +1073,40 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 14,
+					"stack_index": 49,
 					"type": "text"
 				},
 				{
 					"buffer": 13,
+					"file": "src/js/charts/pie/pie-chart.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2015,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1564,
+								1564
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 111.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 44,
+					"type": "text"
+				},
+				{
+					"buffer": 14,
 					"file": "src/js/charts/pie/get-plotly-data.js",
 					"semi_transient": false,
 					"settings":
@@ -784,8 +1118,8 @@
 						"selection":
 						[
 							[
-								68,
-								68
+								317,
+								317
 							]
 						],
 						"settings":
@@ -796,53 +1130,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 16,
-					"type": "text"
-				},
-				{
-					"buffer": 14,
-					"file": "src/js/charts/pie/trace-data.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 499,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								263,
-								263
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 18,
+					"stack_index": 47,
 					"type": "text"
 				},
 				{
 					"buffer": 15,
-					"file": "src/js/index.js",
+					"file": "src/js/charts/pie/trace-data.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 995,
+						"buffer_size": 552,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								616,
-								616
+								167,
+								167
 							]
 						],
 						"settings":
@@ -854,24 +1159,53 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 46,
 					"type": "text"
 				},
 				{
 					"buffer": 16,
-					"file": "src/js/services/index.js",
+					"file": "src/js/index.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 449,
+						"buffer_size": 3797,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								418,
-								418
+								302,
+								302
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 55.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 17,
+					"file": "src/js/charts/pie/subplots.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1209,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1209,
+								1209
 							]
 						],
 						"settings":
@@ -882,24 +1216,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 45,
 					"type": "text"
 				},
 				{
-					"buffer": 17,
-					"file": "src/js/services/get-sum.js",
+					"buffer": 18,
+					"file": "src/js/charts/get-plot-data.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1441,
+						"buffer_size": 1174,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1171,
-								1171
+								675,
+								675
 							]
 						],
 						"settings":
@@ -911,16 +1245,45 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 43,
 					"type": "text"
 				},
 				{
-					"buffer": 18,
-					"file": "src/js/services/get-filtered-data.js",
+					"buffer": 19,
+					"file": "src/js/filters/filter-state.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 347,
+						"buffer_size": 266,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								266,
+								266
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 20,
+					"file": "/Users/ralee/projects/qnaservice/.gitignore",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 50,
 						"regions":
 						{
 						},
@@ -933,76 +1296,372 @@
 						],
 						"settings":
 						{
-							"auto_name": "",
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 19,
-					"file": "src/js/charts/bar/horizontal.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1558,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								831,
-								831
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 20,
-					"type": "text"
-				},
-				{
-					"buffer": 20,
-					"file": "src/js/charts/bar/get-plotly-data.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 510,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								477,
-								477
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 12,
+					"stack_index": 9,
 					"type": "text"
 				},
 				{
 					"buffer": 21,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1853,
+						"regions":
+						{
+							"match":
+							{
+								"flags": 112,
+								"regions":
+								[
+									[
+										229,
+										261
+									],
+									[
+										546,
+										578
+									],
+									[
+										851,
+										883
+									],
+									[
+										1149,
+										1181
+									],
+									[
+										1436,
+										1468
+									],
+									[
+										1735,
+										1767
+									]
+								],
+								"scope": ""
+							}
+						},
+						"selection":
+						[
+							[
+								1807,
+								1807
+							]
+						],
+						"settings":
+						{
+							"detect_indentation": false,
+							"line_numbers": false,
+							"output_tag": 1,
+							"result_base_dir": "",
+							"result_file_regex": "^([^ \t].*):$",
+							"result_line_regex": "^ +([0-9]+):",
+							"scroll_past_end": true,
+							"syntax": "Packages/Default/Find Results.hidden-tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 22,
+					"file": "/Users/ralee/projects/qnaservice/target/test-classes/com/webmd/qnaservice/config/qnaServiceTest-servlet.xml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 923,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								908,
+								908
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/XML/XML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 23,
+					"file": "/Users/ralee/projects/qnaservice/src/main/java/com/webmd/qnaservice/filter/PathAuthFilter.java",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1301,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Java/Java.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 23,
+					"type": "text"
+				},
+				{
+					"buffer": 24,
+					"file": "/Users/ralee/projects/qnaservice/src/main/java/com/webmd/qnaservice/controller/BaseController.java",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 859,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Java/Java.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 24,
+					"type": "text"
+				},
+				{
+					"buffer": 25,
+					"file": "src/js/filters/index.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1753,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1047,
+								1047
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 15,
+					"type": "text"
+				},
+				{
+					"buffer": 26,
+					"file": "public/specialties.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 130537,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								130537
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
+						},
+						"translation.x": 18.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 28,
+					"type": "text"
+				},
+				{
+					"buffer": 27,
+					"file": "src/scss/components/filters.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 54,
+					"type": "text"
+				},
+				{
+					"buffer": 28,
+					"file": "src/js/services/index.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 640,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								640,
+								640
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 13,
+					"type": "text"
+				},
+				{
+					"buffer": 29,
+					"file": "src/js/charts/bar/horizontal.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1369,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1146,
+								1146
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 14,
+					"type": "text"
+				},
+				{
+					"buffer": 30,
+					"file": "src/js/charts/bar/bar-chart.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2009,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								889,
+								889
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 52.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 26,
+					"type": "text"
+				},
+				{
+					"buffer": 31,
+					"file": "src/js/charts/bar/trace-data.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 694,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								687,
+								687
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 42,
+					"type": "text"
+				},
+				{
+					"buffer": 32,
 					"file": "src/js/charts/index.js",
 					"semi_transient": false,
 					"settings":
@@ -1026,24 +1685,141 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 15,
+					"stack_index": 34,
 					"type": "text"
 				},
 				{
-					"buffer": 22,
-					"file": "src/js/charts/responsive-chart.js",
+					"buffer": 33,
+					"file": "src/js/charts/map/usa.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 892,
+						"buffer_size": 7093,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								66,
-								0
+								3196,
+								3196
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 5.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 19,
+					"type": "text"
+				},
+				{
+					"buffer": 34,
+					"file": "public/cities.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 867,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								710,
+								710
+							]
+						],
+						"settings":
+						{
+							"auto_name": "[",
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"tab_size": 3,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 40,
+					"type": "text"
+				},
+				{
+					"buffer": 35,
+					"file": "src/js/charts/map/service.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 245,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								122,
+								122
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 20,
+					"type": "text"
+				},
+				{
+					"buffer": 36,
+					"file": "public/cities-lived.csv",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 274,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								213,
+								213
+							]
+						],
+						"settings":
+						{
+							"auto_name": "years,place,lat,lon",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 39,
+					"type": "text"
+				},
+				{
+					"buffer": 37,
+					"file": "src/js/tooltip/index.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 776,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								744,
+								744
 							]
 						],
 						"settings":
@@ -1055,11 +1831,126 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 19,
+					"stack_index": 31,
 					"type": "text"
 				},
 				{
-					"buffer": 23,
+					"buffer": 38,
+					"file": "src/js/tooltip/styles.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 134,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								9,
+								9
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 32,
+					"type": "text"
+				},
+				{
+					"buffer": 39,
+					"file": "public/states-lived.csv",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 585,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								585,
+								585
+							]
+						],
+						"settings":
+						{
+							"auto_name": "state,visited",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 35,
+					"type": "text"
+				},
+				{
+					"buffer": 40,
+					"file": "src/js/charts/map/us-regions-mapping.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 974,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								949,
+								949
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 29,
+					"type": "text"
+				},
+				{
+					"buffer": 41,
+					"file": "src/js/charts/responsive-chart.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 849,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								286,
+								286
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 41,
+					"type": "text"
+				},
+				{
+					"buffer": 42,
 					"file": "webpack-dist.config.js",
 					"semi_transient": false,
 					"settings":
@@ -1071,8 +1962,8 @@
 						"selection":
 						[
 							[
-								540,
-								540
+								656,
+								0
 							]
 						],
 						"settings":
@@ -1085,11 +1976,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 24,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
-					"buffer": 24,
+					"buffer": 43,
 					"file": "webpack.config.js",
 					"semi_transient": false,
 					"settings":
@@ -1101,8 +1992,66 @@
 						"selection":
 						[
 							[
-								124,
-								124
+								521,
+								521
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 280.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 44,
+					"file": "postcss.config.js",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 101,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								101
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 45,
+					"file": "webpack-dev.config.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 362,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								362
 							]
 						],
 						"settings":
@@ -1115,24 +2064,81 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 26,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
-					"buffer": 25,
-					"file": "package.json",
+					"buffer": 46,
+					"file": "src/js/filters/scss/filters.scss",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1764,
+						"buffer_size": 256,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								483,
-								483
+								184,
+								184
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 51,
+					"type": "text"
+				},
+				{
+					"buffer": 47,
+					"file": "src/styles/global.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 70,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								68,
+								68
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 52,
+					"type": "text"
+				},
+				{
+					"buffer": 48,
+					"file": "package.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1812,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1056,
+								1056
 							]
 						],
 						"settings":
@@ -1145,24 +2151,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 25,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 26,
+					"buffer": 49,
 					"file": "public/index.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 549,
+						"buffer_size": 584,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								469,
-								469
+								418,
+								418
 							]
 						],
 						"settings":
@@ -1175,17 +2181,46 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 28,
+					"stack_index": 30,
 					"type": "text"
 				}
 			]
 		},
 		{
-			"selected": 3,
+			"selected": 6,
 			"sheets":
 			[
 				{
-					"buffer": 27,
+					"buffer": 50,
+					"file": "src/js/charts/map/us-states.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 89445,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								89001,
+								89001
+							]
+						],
+						"settings":
+						{
+							"auto_name": "export default {\"type\":\"FeatureCollection\",\"featur",
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 21,
+					"type": "text"
+				},
+				{
+					"buffer": 51,
 					"file": "src/js/plot-data-helper/get-sum.js",
 					"semi_transient": false,
 					"settings":
@@ -1210,11 +2245,70 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 57,
 					"type": "text"
 				},
 				{
-					"buffer": 28,
+					"buffer": 52,
+					"file": "src/js/services/get-filtered-data.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 434,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								349,
+								349
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 22,
+					"type": "text"
+				},
+				{
+					"buffer": 53,
+					"file": "src/js/services/get-percentage.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1028,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								987,
+								987
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 50,
+					"type": "text"
+				},
+				{
+					"buffer": 54,
 					"file": "src/js/plot-data-helper/index.js",
 					"semi_transient": false,
 					"settings":
@@ -1238,11 +2332,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
+					"stack_index": 55,
 					"type": "text"
 				},
 				{
-					"buffer": 29,
+					"buffer": 55,
 					"file": "src/js/plot-data-helper/get-percentage.js",
 					"semi_transient": false,
 					"settings":
@@ -1267,44 +2361,74 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 11,
+					"stack_index": 56,
 					"type": "text"
 				},
 				{
-					"buffer": 30,
+					"buffer": 56,
 					"file": "src/js/services/get-all.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 323,
+						"buffer_size": 1429,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								103,
-								103
+								835,
+								835
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
-					"buffer": 31,
-					"file": "src/js/services/get-percentage.js",
+					"buffer": 57,
+					"file": "src/js/services/get-sum.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1502,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1229,
+								1229
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
+					"type": "text"
+				},
+				{
+					"buffer": 58,
+					"file": "src/js/filters/select-component.js",
 					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 1009,
+						"buffer_size": 672,
 						"regions":
 						{
 						},
@@ -1324,11 +2448,69 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 16,
 					"type": "text"
 				},
 				{
-					"buffer": 32,
+					"buffer": 59,
+					"file": "src/js/services/get-mean.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1684,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								906,
+								906
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 27,
+					"type": "text"
+				},
+				{
+					"buffer": 60,
+					"file": "src/js/services/get-group-mapping-data.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 471,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								100,
+								100
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 18,
+					"type": "text"
+				},
+				{
+					"buffer": 61,
 					"semi_transient": false,
 					"settings":
 					{
@@ -1351,7 +2533,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 13,
+					"stack_index": 58,
 					"type": "text"
 				}
 			]
@@ -1359,11 +2541,11 @@
 	],
 	"incremental_find":
 	{
-		"height": 23.0
+		"height": 24.0
 	},
 	"input":
 	{
-		"height": 35.0
+		"height": 36.0
 	},
 	"layout":
 	{
@@ -1403,7 +2585,7 @@
 	"project": "interactive-report.sublime-project",
 	"replace":
 	{
-		"height": 94.0
+		"height": 44.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -1433,7 +2615,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 1,
+	"selected_group": 0,
 	"settings":
 	{
 	},

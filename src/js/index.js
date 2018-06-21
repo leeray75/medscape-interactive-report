@@ -45,7 +45,10 @@ const configs = [
 				value: '#900'
 			}
 
-		]		
+		],
+		layout:{
+			barmode: 'group'
+		}
 	},
 	{
 		title: "Specialists Salaries Grouping",
